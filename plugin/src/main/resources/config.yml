@@ -1,22 +1,3 @@
-# TotemShow
-
-A datapack that detects when a player uses a Totem of Undying and broadcasts a message to all players.
-
-![The message displayed when a user activates a Totem of Undying.](https://cdn.modrinth.com/data/w8kkMDcW/images/97e584fa1c265a5dbe5224b73efabd9db0e11472.png)
-
----
-
-## Features
-- Detects whenever any player uses a Totem of Undying.
-- Broadcasts a customizable message using the `segtotems.message` translation key in resource packs for the datapack and mod versions, or by modifying the `config.yml` file for the plugin version.
-
----
-
-## Customization (plugin)
-
-The messages can be customized in the `config.yml` file of plugin.
-
-```yml
 messages:
   # Message sent when a player uses a Totem of Undying.
   #
@@ -59,16 +40,3 @@ messages:
     - "<gold>/totemshow off <#CF6704>- <yellow>Disables totem detection."
     - "<gold>/totemshow toggle <#CF6704>- <yellow>Toggles totem detection."
     - "<gold>/totemshow reload <#CF6704>- <yellow>Reloads the plugin's configuration."
-```
-
-## Customization (datapack/mod)
-
-You can customize the broadcast message by editing the `segtotems.message` key in your language file. The example below shows how the default message would look in an `en_us.json` file:
-
-```json
-{
-    "segtotems.message": "§6☠ %s §7used a §eTotem of Undying§6!"
-}
-```
-
-Modify this key in your own `en_us.json` (or equivalent) to change how the message appears in-game, this can be done inside a resource pack for better user experience.

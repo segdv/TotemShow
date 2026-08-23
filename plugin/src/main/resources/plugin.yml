@@ -1,0 +1,7 @@
+name: TotemShow
+version: 1.4.0
+main: io.github.segdv.totemshow.TotemShow
+description: Send a message whenever a player cheats death with a Totem of Undying.
+author: SEG
+api-version: '1.21'
+folia-supported: true
