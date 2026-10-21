@@ -1,6 +1,18 @@
-# TotemShow
+<div align="center">
+    <h1>TotemShow</h1>
+    <p>
+        <a href="https://modrinth.com/project/totemshow">
+            <img src="./datapack/pack.png" align="center" alt="Logo" />
+        </a>
+    </p>
+    <p>A plugin, datapack and mod that detects when a player uses a Totem of Undying and broadcasts a message to all players.</p>
+    <p>
+        <a href="https://modrinth.com/project/totemshow"><img alt="Modrinth Downloads" src="https://img.shields.io/modrinth/dt/totemshow?logo=modrinth&logoColor=%2300AF5C&label=Downloads&color=%2300AF5C" /></a>
+        <a href="https://modrinth.com/project/totemshow"><img alt="Modrinth Followers" src="https://img.shields.io/modrinth/followers/totemshow?style=flat&logo=modrinth&label=Followers&logoColor=%2300AF5C&color=%2300AF5C" /></a>
+    </p>
+</div>
 
-A datapack that detects when a player uses a Totem of Undying and broadcasts a message to all players.
+---
 
 ![The message displayed when a user activates a Totem of Undying.](https://cdn.modrinth.com/data/w8kkMDcW/images/97e584fa1c265a5dbe5224b73efabd9db0e11472.png)
 
